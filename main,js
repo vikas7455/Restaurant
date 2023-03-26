@@ -1,0 +1,12 @@
+let foods1= document.getElementById("food1");
+let foods2= document.getElementById("food2");
+let foods3 =document.getElementById("change");
+
+
+foods1.addEventListener("click",()=>{
+    foods3.style.backgroundImage="url('img/food2.jpg')";
+})
+
+foods2.addEventListener("click",()=>{
+    foods3.style.backgroundImage=" url('img/food3.jpg')";
+})
